@@ -83,7 +83,10 @@
                     <a href="index.php">العربية</a>
                 </div>
                 <div class="navbar-btn">
-                    <a href="/login-en.php">Login</a>
+                    <a href="doctor-login-en.php">Doctor Login</a>
+                </div>
+                <div class="navbar-btn">
+                    <a href="login-en.php">Login</a>
                 </div>
             </div>
         </div>

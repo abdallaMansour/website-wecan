@@ -104,7 +104,7 @@
               </button>
             </form>
             <div style="text-align: center; margin-top: 20px">
-              <a href="/hospital-en.php" class="register-btn">If you're not registered, click here to sign up</a>
+              <a href="hospital-en.php" class="register-btn">If you're not registered, click here to sign up</a>
             </div>
           </div>
         </div>
@@ -168,10 +168,10 @@
 
               // Redirect to home page after a short delay
               if (response.data.account_status === "pending") {
-                window.location.href = "/pending-en.php";
+                window.location.href = "pending-en.php";
               } else {
                 // Redirect to home page after a short delay
-                window.location.href = "/home-en.php";
+                window.location.href = "home-en.php";
               }
             } else {
               $("#errorMessages").html(response.message);

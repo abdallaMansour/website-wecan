@@ -25,32 +25,32 @@
         class="w-64 bg-gray-800 text-white p-4 transform -translate-x-full transition-transform duration-300 ease-in-out fixed top-0 left-0 h-full z-30">
         <ul>
           <li class="mb-2">
-            <a href="/home.php" class="block p-2 hover:bg-gray-700 rounded">Home</a>
+            <a href="home.php" class="block p-2 hover:bg-gray-700 rounded">Home</a>
           </li>
           <!-- <li class="mb-2">
           
-            href="/patients.php"
+            href="patients.php"
             class="block p-2 hover:bg-gray-700 rounded"
             >Patients</a
           >
         </li>
         <li class="mb-2">
           
-            href="/doctors.php"
+            href="doctors.php"
             class="block p-2 hover:bg-gray-700 rounded"
             >Doctors</a
           >
         </li>
         <li class="mb-2">
           
-            href="/appointments.php"
+            href="appointments.php"
             class="block p-2 hover:bg-gray-700 rounded"
             >Appointments</a
           >
         </li> -->
           <li class="nav-item mb-2">
             <a
-              href="/profile-en.php"
+              href="profile-en.php"
               class="block p-2 hover:bg-gray-700 rounded">
               Profile
             </a>
@@ -285,12 +285,12 @@
     document.addEventListener("DOMContentLoaded", function() {
       const authToken = localStorage.getItem("authToken");
       if (!authToken) {
-        window.location.href = "/index.php";
+        window.location.href = "index.php";
       }
       document.getElementById("logout-link").addEventListener("click", function(event) {
         event.preventDefault();
         localStorage.removeItem("authToken");
-        window.location.href = "/login.php";
+        window.location.href = "login.php";
       });
     });
   </script>

@@ -157,7 +157,7 @@
     document.addEventListener("DOMContentLoaded", function() {
       const authToken = localStorage.getItem("authToken");
       if (!authToken) {
-        window.location.href = "/index.php";
+        window.location.href = "index.php";
       }
     });
   </script>
@@ -170,19 +170,19 @@
       class="w-64 bg-gray-800 text-white p-4 ease-in-out fixed top-0 left-0 h-full z-30">
       <ul>
         <li class="mb-2">
-          <a href="/home-en.php" class="block p-2 hover:bg-gray-700 rounded">Home</a>
+          <a href="home-en.php" class="block p-2 hover:bg-gray-700 rounded">Home</a>
         </li>
         <li class="mb-2">
-          <a href="/chat-en.php" class="block p-2 hover:bg-gray-700 rounded">Chat</a>
+          <a href="chat-en.php" class="block p-2 hover:bg-gray-700 rounded">Chat</a>
         </li>
         <li class="nav-item">
           <a
-            href="/attached-patients-en.php"
+            href="attached-patients-en.php"
             class="nav-link block p-2 hover:bg-gray-700 rounded">Connected Patients</a>
         </li>
         <li class="nav-item mb-2">
           <a
-            href="/profile-en.php"
+            href="profile-en.php"
             class="block p-2 hover:bg-gray-700 rounded">
             Profile
           </a>

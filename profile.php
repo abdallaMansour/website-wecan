@@ -134,7 +134,7 @@
           <a href="index-en.php">English</a>
         </div>
         <div class="navbar-btn">
-          <a href="/login.php">تسجيل الخروج</a>
+          <a href="login.php">تسجيل الخروج</a>
         </div>
       </div>
     </div>
@@ -310,7 +310,7 @@
       var authToken = localStorage.getItem("authToken");
 
       if (!authToken) {
-        window.location.href = "/login.php";
+        window.location.href = "login.php";
         return;
       }
 
@@ -439,7 +439,7 @@
           success: function(response) {
             if (response.status) {
               localStorage.removeItem("authToken");
-              window.location.href = "/login.php";
+              window.location.href = "login.php";
             } else {
               $("#errorMessages").html("Failed to logout. Please try again.");
             }

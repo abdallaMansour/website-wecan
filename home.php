@@ -158,7 +158,7 @@
     document.addEventListener("DOMContentLoaded", function() {
       const authToken = localStorage.getItem("authToken");
       if (!authToken) {
-        window.location.href = "/index.php";
+        window.location.href = "index.php";
       }
     });
   </script>
@@ -172,29 +172,29 @@
       class="w-64 bg-gray-800 text-white p-4 ease-in-out fixed top-0 left-0 h-full z-30">
       <ul>
         <li class="mb-2">
-          <a href="/home.php" class="block p-2 hover:bg-gray-700 rounded">الصفحة الرئيسية</a>
+          <a href="home.php" class="block p-2 hover:bg-gray-700 rounded">الصفحة الرئيسية</a>
         </li>
         <li class="mb-2">
-          <a href="/chat.php" class="block p-2 hover:bg-gray-700 rounded">الدردشة</a>
+          <a href="chat.php" class="block p-2 hover:bg-gray-700 rounded">الدردشة</a>
         </li>
         <!--
             <li class="mb-2">
               <a
-                href="/patients.php"
+                href="patients.php"
                 class="block p-2 hover:bg-gray-700 rounded"
                 >المرضى</a
               >
             </li>
             <li class="mb-2">
               <a
-                href="/doctors.php"
+                href="doctors.php"
                 class="block p-2 hover:bg-gray-700 rounded"
                 >الأطباء</a
               >
             </li>
             <li class="mb-2">
               <a
-                href="/appointments.php"
+                href="appointments.php"
                 class="block p-2 hover:bg-gray-700 rounded"
                 >المواعيد</a
               >
@@ -203,11 +203,11 @@
 
         <li class="nav-item mb-2">
           <a
-            href="/attached-patients.php"
+            href="attached-patients.php"
             class="nav-link block p-2 hover:bg-gray-700 rounded">المرضى المرتبطين</a>
         </li>
         <li class="nav-item mb-2">
-          <a href="/profile.php" class="block p-2 hover:bg-gray-700 rounded">
+          <a href="profile.php" class="block p-2 hover:bg-gray-700 rounded">
             الحساب الشخصي</a>
         </li>
         <li class="mb-2">

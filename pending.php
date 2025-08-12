@@ -49,7 +49,7 @@
     document.addEventListener("DOMContentLoaded", function() {
       var authToken = localStorage.getItem("authToken");
       if (!authToken) {
-        window.location.href = "/login.php";
+        window.location.href = "login.php";
       }
     });
   </script>

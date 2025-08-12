@@ -148,7 +148,10 @@
           <a href="index-en.php">English</a>
         </div>
         <div class="navbar-btn">
-          <a href="/login.php">Login</a>
+          <a href="doctor-login.php">Doctor Login</a>
+        </div>
+        <div class="navbar-btn">
+          <a href="login.php">Login</a>
         </div>
       </div>
     </div>
@@ -415,7 +418,7 @@
 
               // Redirect to home page after a short delay
               setTimeout(function() {
-                window.location.href = "/home-en.php";
+                window.location.href = "home-en.php";
               }, 2000);
             } else {
               $("#errorMessages").html(response.message);

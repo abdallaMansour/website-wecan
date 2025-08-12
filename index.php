@@ -122,8 +122,11 @@
                     <div class="navbar-btn">
                         <a href="index-en.php">English</a>
                     </div>
-					 <div class="navbar-btn">
-                        <a href="/login.php">تسجيل الدخول</a>
+                    <div class="navbar-btn">
+                        <a href="doctor-login.php">تسجيل دخول الطبيب</a>
+                    </div>
+                    <div class="navbar-btn">
+                        <a href="login.php">تسجيل الدخول</a>
                     </div>
                 </div>
             </div>

@@ -126,7 +126,7 @@
               </button>
             </form>
             <div style="text-align: center; margin-top: 20px">
-              <a href="/hospital.php" class="register-btn">إذا لم تكن مسجلاً، انقر هنا للتسجيل</a>
+              <a href="hospital.php" class="register-btn">إذا لم تكن مسجلاً، انقر هنا للتسجيل</a>
             </div>
           </div>
         </div>
@@ -190,10 +190,10 @@
               $("#successMessage").html("تم تسجيل الدخول بنجاح");
               $("#errorMessages").html(""); // Clear any previous error messages
               if (response.data.account_status === "pending") {
-                window.location.href = "/pending.php";
+                window.location.href = "pending.php";
               } else {
                 // Redirect to home page after a short delay
-                window.location.href = "/home.php";
+                window.location.href = "home.php";
               }
             } else {
               $("#errorMessages").html(response.message);

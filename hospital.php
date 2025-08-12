@@ -130,19 +130,19 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link active" href="#home">الرئيسية</a>
+            <a class="nav-link active" href="index.php#home">الرئيسية</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#features">المميزات</a>
+            <a class="nav-link" href="index.php#features">المميزات</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#screenshots">نظرة على التطبيق</a>
+            <a class="nav-link" href="index.php#screenshots">نظرة على التطبيق</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#pricing">ما ننصحك به</a>
+            <a class="nav-link" href="index.php#pricing">ما ننصحك به</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#testimonial">مبادرة من</a>
+            <a class="nav-link" href="index.php#testimonial">مبادرة من</a>
           </li>
         </ul>
 
@@ -150,7 +150,10 @@
           <a href="index-en.php">English</a>
         </div>
         <div class="navbar-btn">
-          <a href="/login.php">تسجيل الدخول</a>
+          <a href="doctor-login.php">تسجيل دخول الطبيب</a>
+        </div>
+        <div class="navbar-btn">
+          <a href="login.php">تسجيل الدخول</a>
         </div>
       </div>
     </div>
@@ -417,7 +420,7 @@
 
               // Redirect to home page after a short delay
               setTimeout(function() {
-                window.location.href = "/home.php";
+                window.location.href = "home.php";
               }, 2000);
             } else {
               $("#errorMessages").html(response.message);
