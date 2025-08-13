@@ -437,7 +437,7 @@
 
                             // Redirect to home page after a short delay
                             setTimeout(function() {
-                                window.location.href = "http://hospital.wecan.ae/login?hospital=" + (response.data.hospital_id ?? 0);
+                                window.location.href = "http://hospital.wecan.ae/login?hospital=" + (formData.get("hospital_id") ?? 0);
                             }, 2000);
                         } else {
                             $("#errorMessages").html(response.message);
