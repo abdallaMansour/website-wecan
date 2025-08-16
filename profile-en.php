@@ -1,21 +1,20 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="en" dir="ltr">
 
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="assets/css/bootstrap.rtl.min.css" />
-  <link rel="stylesheet" href="assets/fonts/flaticon.css" />
-  <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
-  <link rel="stylesheet" href="assets/css/owl.theme.default.min.css" />
-  <link rel="stylesheet" href="assets/css/animate.min.css" />
-  <link rel="stylesheet" href="assets/css/slick.css" />
-  <link rel="stylesheet" href="assets/css/slick-theme.css" />
-  <link rel="stylesheet" href="assets/css/magnific-popup.css" />
-  <link rel="stylesheet" href="assets/css/style.css" />
-  <link rel="stylesheet" href="assets/css/dark.css" />
-  <link rel="stylesheet" href="assets/css/responsive.css" />
-  <link rel="stylesheet" href="assets/css/rtl.css" />
+  <link rel="stylesheet" href="assets-en/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets-en/fonts/flaticon.css" />
+  <link rel="stylesheet" href="assets-en/css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="assets-en/css/owl.theme.default.min.css" />
+  <link rel="stylesheet" href="assets-en/css/animate.min.css" />
+  <link rel="stylesheet" href="assets-en/css/slick.css" />
+  <link rel="stylesheet" href="assets-en/css/slick-theme.css" />
+  <link rel="stylesheet" href="assets-en/css/magnific-popup.css" />
+  <link rel="stylesheet" href="assets-en/css/style.css" />
+  <link rel="stylesheet" href="assets-en/css/dark.css" />
+  <link rel="stylesheet" href="assets-en/css/responsive.css" />
   <style>
     .form-group input,
     .form-group select,
@@ -76,8 +75,8 @@
       margin-bottom: 15px;
     }
   </style>
-  <title>Hospital Profile</title>
-  <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+  <title>Hospital Profile - We Can</title>
+  <link rel="icon" type="image/png" href="assets-en/img/favicon.png" />
 </head>
 
 <body data-bs-spy="scroll" data-bs-offset="70">
@@ -95,7 +94,7 @@
   <nav class="navbar navbar-expand-md navbar-light navbar-area custom-navbar">
     <div class="container">
       <a class="navbar-brand" href="index.php">
-        <img src="assets/img/logo.png" alt="logo" />
+        <img src="assets-en/img/logo.png" alt="logo" />
       </a>
       <button
         class="navbar-toggler"
@@ -283,16 +282,16 @@
   <!-- Footer Section End -->
 
   <!-- Include the JS files -->
-  <script src="assets/js/jquery.min.js"></script>
-  <script src="assets/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/js/owl.carousel.min.js"></script>
-  <script src="assets/js/jquery.ajaxchimp.min.js"></script>
-  <script src="assets/js/form-validator.min.js"></script>
-  <script src="assets/js/contact-form-script.js"></script>
-  <script src="assets/js/slick.min.js"></script>
-  <script src="assets/js/jquery.magnific-popup.min.js"></script>
-  <script src="assets/js/wow.min.js"></script>
-  <script src="assets/js/custom.js"></script>
+      <script src="assets-en/js/jquery.min.js"></script>
+    <script src="assets-en/js/bootstrap.bundle.min.js"></script>
+    <script src="assets-en/js/owl.carousel.min.js"></script>
+    <script src="assets-en/js/jquery.ajaxchimp.min.js"></script>
+    <script src="assets-en/js/form-validator.min.js"></script>
+    <script src="assets-en/js/contact-form-script.js"></script>
+    <script src="assets-en/js/slick.min.js"></script>
+    <script src="assets-en/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets-en/js/wow.min.js"></script>
+    <script src="assets-en/js/custom.js"></script>
 
   <script>
     function previewImage(event) {

@@ -1,97 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="assets-en/css/bootstrap.min.css">
-    <!-- Flaticon CSS -->
-    <link rel="stylesheet" href="assets-en/fonts/flaticon.css">
-    <!-- Owl Carousel CSS -->
-    <link rel="stylesheet" href="assets-en/css/owl.carousel.min.css">
-    <!-- Owl Carousel Theme Default CSS -->
-    <link rel="stylesheet" href="assets-en/css/owl.theme.default.min.css">
-    <!-- Animate CSS -->
-    <link rel="stylesheet" href="assets-en/css/animate.min.css">
-    <!-- Slick CSS -->
-    <link rel="stylesheet" href="assets-en/css/slick.css">
-    <!-- Slick Theme CSS -->
-    <link rel="stylesheet" href="assets-en/css/slick-theme.css">
-    <!-- Magnific Popup CSS -->
-    <link rel="stylesheet" href="assets-en/css/magnific-popup.css">
-    <!-- Style CSS -->
-    <link rel="stylesheet" href="assets-en/css/style.css">
-    <!-- Dark CSS -->
-    <link rel="stylesheet" href="assets-en/css/dark.css">
-    <!-- Responsive CSS -->
-    <link rel="stylesheet" href="assets-en/css/responsive.css">
-
-    <!-- Title -->
-    <title>We Can</title>
-
-    <!-- Favicon Link -->
-    <link rel="icon" type="image/png" href="assets-en/img/favicon.png">
-</head>
-
-<body data-bs-spy="scroll" data-bs-offset="70">
-    <!-- Pre-loader CSS Start -->
-    <div class="loader-content">
-        <div class="d-table">
-            <div class="d-table-cell">
-                <div class="spinner">
-                    <div class="double-bounce1"></div>
-                    <div class="double-bounce2"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Pre-loader CSS End -->
-
-    <!-- Navbar Area Start -->
-    <nav class="navbar navbar-expand-md navbar-light navbar-area">
-        <div class="container">
-            <a class="navbar-brand" href="index.php">
-                <img src="assets-en/img/logo.png" alt="logo">
-            </a>
-
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#features">Features</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#screenshots">Apps Screenshots</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#pricing">Our Advice</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#testimonial">Initiative From</a>
-                    </li>
-                </ul>
-
-                <div class="navbar-btn">
-                    <a href="index.php">العربية</a>
-                </div>
-                <div class="navbar-btn">
-                    <a href="doctor-login-en.php">Doctor Login</a>
-                </div>
-                <div class="navbar-btn">
-                    <a href="login-en.php">Login</a>
-                </div>
-            </div>
-        </div>
-    </nav>
-    <!-- Navbar Area End -->
+<?php include 'layouts/header-en.php'; ?>
 
     <!-- Banner Section Start -->
     <div id="home" class="main-banner banner-bg-one">
@@ -395,27 +302,27 @@
                             <img src="assets-en/img/app-landing/testimonial/client-img-three2.png" alt="client image">
 
 
-                        <div class="testimonial-item">
-                            <img src="assets/img/app-landing/testimonial/client-img-three.png" alt="client image">
+                            <div class="testimonial-item">
+                                <img src="assets/img/app-landing/testimonial/client-img-three.png" alt="client image">
 
-                            <div class="client-info">
-                                <h3>Ahmed Maged Al-Sayed Farag</h3>
-                                <span>Developer and programmer of the application and UI</span>
+                                <div class="client-info">
+                                    <h3>Ahmed Maged Al-Sayed Farag</h3>
+                                    <span>Developer and programmer of the application and UI</span>
+                                </div>
                             </div>
-                        </div>
 
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="testimonial-shape">
-                <img src="assets-en/img/shape/1.png" alt="shape">
-                <img src="assets-en/img/shape/2.png" alt="shape">
-                <img src="assets-en/img/shape/3.png" alt="shape">
-                <img src="assets-en/img/shape/4.png" alt="shape">
-                <img src="assets-en/img/shape/5.png" alt="shape">
+                <div class="testimonial-shape">
+                    <img src="assets-en/img/shape/1.png" alt="shape">
+                    <img src="assets-en/img/shape/2.png" alt="shape">
+                    <img src="assets-en/img/shape/3.png" alt="shape">
+                    <img src="assets-en/img/shape/4.png" alt="shape">
+                    <img src="assets-en/img/shape/5.png" alt="shape">
+                </div>
             </div>
-        </div>
     </section>
     <!-- Testimonial Section End -->
 
@@ -441,28 +348,36 @@
         <i class="flaticon-startup"></i>
     </div>
 
+
+    <!-- Footer Section End -->
+
+    <!-- Back to Top -->
+    <div class="top-btn">
+        <i class="flaticon-startup"></i>
+    </div>
+
     <!-- Jquery JS -->
-    <script src="assets-en/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
     <!-- Bootstrap JS -->
-    <script src="assets-en/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
     <!-- Owl Carousel JS -->
-    <script src="assets-en/js/owl.carousel.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
     <!-- Form Ajaxchimp JS -->
-    <script src="assets-en/js/jquery.ajaxchimp.min.js"></script>
+    <script src="assets/js/jquery.ajaxchimp.min.js"></script>
     <!-- Form Validator JS -->
-    <script src="assets-en/js/form-validator.min.js"></script>
+    <script src="assets/js/form-validator.min.js"></script>
     <!-- Contact JS -->
-    <script src="assets-en/js/contact-form-script.js"></script>
+    <script src="assets/js/contact-form-script.js"></script>
     <!-- Slick Slider Popup JS -->
-    <script src="assets-en/js/slick.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
     <!-- MixitUp JS -->
-    <script src="assets-en/js/jquery.mixitup.min.js"></script>
+    <script src="assets/js/jquery.mixitup.min.js"></script>
     <!-- WOW JS -->
-    <script src="assets-en/js/wow.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
     <!-- Magnific Popup JS -->
-    <script src="assets-en/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
     <!-- Custom JS -->
-    <script src="assets-en/js/custom.js"></script>
+    <script src="assets/js/custom.js"></script>
 </body>
 
 </html>

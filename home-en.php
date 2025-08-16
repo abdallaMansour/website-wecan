@@ -4,20 +4,33 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Connected - Home Page</title>
-  <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Inter:wght@100..900&display=swap"
-    rel="stylesheet" />
+  <title>We Can - Home Page</title>
+  
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="assets-en/css/bootstrap.min.css">
+  <!-- Flaticon CSS -->
+  <link rel="stylesheet" href="assets-en/fonts/flaticon.css">
+  <!-- Owl Carousel CSS -->
+  <link rel="stylesheet" href="assets-en/css/owl.carousel.min.css">
+  <!-- Owl Carousel Theme Default CSS -->
+  <link rel="stylesheet" href="assets-en/css/owl.theme.default.min.css">
+  <!-- Animate CSS -->
+  <link rel="stylesheet" href="assets-en/css/animate.min.css">
+  <!-- Slick CSS -->
+  <link rel="stylesheet" href="assets-en/css/slick.css">
+  <!-- Slick Theme CSS -->
+  <link rel="stylesheet" href="assets-en/css/slick-theme.css">
+  <!-- Magnific Popup CSS -->
+  <link rel="stylesheet" href="assets-en/css/magnific-popup.css">
+  <!-- Style CSS -->
+  <link rel="stylesheet" href="assets-en/css/style.css">
+  <!-- Dark CSS -->
+  <link rel="stylesheet" href="assets-en/css/dark.css">
+  <!-- Responsive CSS -->
+  <link rel="stylesheet" href="assets-en/css/responsive.css">
+  
+  <!-- Favicon Link -->
+  <link rel="icon" type="image/png" href="assets-en/img/favicon.png">
   <style>
     :root {
       --primary-color: #007bff;

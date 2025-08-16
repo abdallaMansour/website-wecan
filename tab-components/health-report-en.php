@@ -3,15 +3,33 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Health Report</title>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css"
-    />
-    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
-    <script src="https://cdn.jsdelivr.net/npm/flatpickr/dist/l10n/en.js"></script>
+    <title>Health Report - We Can</title>
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../assets-en/css/bootstrap.min.css">
+    <!-- Flaticon CSS -->
+    <link rel="stylesheet" href="../assets-en/fonts/flaticon.css">
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="../assets-en/css/owl.carousel.min.css">
+    <!-- Owl Carousel Theme Default CSS -->
+    <link rel="stylesheet" href="../assets-en/css/owl.theme.default.min.css">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="../assets-en/css/animate.min.css">
+    <!-- Slick CSS -->
+    <link rel="stylesheet" href="../assets-en/css/slick.css">
+    <!-- Slick Theme CSS -->
+    <link rel="stylesheet" href="../assets-en/css/slick-theme.css">
+    <!-- Magnific Popup CSS -->
+    <link rel="stylesheet" href="../assets-en/css/magnific-popup.css">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="../assets-en/css/style.css">
+    <!-- Dark CSS -->
+    <link rel="stylesheet" href="../assets-en/css/dark.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="../assets-en/css/responsive.css">
+    
+    <!-- Favicon Link -->
+    <link rel="icon" type="image/png" href="../assets-en/img/favicon.png">
     <style>
       body {
         padding-right: 250px; /* Adjust for sidebar width */

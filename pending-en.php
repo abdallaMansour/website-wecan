@@ -5,17 +5,17 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!-- Include the CSS files -->
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="assets/fonts/flaticon.css" />
-  <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
-  <link rel="stylesheet" href="assets/css/owl.theme.default.min.css" />
-  <link rel="stylesheet" href="assets/css/animate.min.css" />
-  <link rel="stylesheet" href="assets/css/slick.css" />
-  <link rel="stylesheet" href="assets/css/slick-theme.css" />
-  <link rel="stylesheet" href="assets/css/magnific-popup.css" />
-  <link rel="stylesheet" href="assets/css/style.css" />
-  <link rel="stylesheet" href="assets/css/dark.css" />
-  <link rel="stylesheet" href="assets/css/responsive.css" />
+  <link rel="stylesheet" href="assets-en/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets-en/fonts/flaticon.css" />
+  <link rel="stylesheet" href="assets-en/css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="assets-en/css/owl.theme.default.min.css" />
+  <link rel="stylesheet" href="assets-en/css/animate.min.css" />
+  <link rel="stylesheet" href="assets-en/css/slick.css" />
+  <link rel="stylesheet" href="assets-en/css/slick-theme.css" />
+  <link rel="stylesheet" href="assets-en/css/magnific-popup.css" />
+  <link rel="stylesheet" href="assets-en/css/style.css" />
+  <link rel="stylesheet" href="assets-en/css/dark.css" />
+  <link rel="stylesheet" href="assets-en/css/responsive.css" />
 
   <style>
     .custom-navbar {
@@ -36,8 +36,8 @@
     }
   </style>
 
-  <title>Account Pending</title>
-  <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+  <title>Account Pending - We Can</title>
+  <link rel="icon" type="image/png" href="assets-en/img/favicon.png" />
 </head>
 
 <body data-bs-spy="scroll" data-bs-offset="70">
@@ -84,7 +84,7 @@
           <div class="testimonial-slider owl-carousel owl-theme">
             <div class="testimonial-item">
               <img
-                src="assets/img/app-landing/testimonial/client-img.png"
+                src="assets-en/img/app-landing/testimonial/client-img.png"
                 alt="client image" />
 
               <div class="client-info">
@@ -95,7 +95,7 @@
 
             <div class="testimonial-item">
               <img
-                src="assets/img/app-landing/testimonial/client-img-three2.png"
+                src="assets-en/img/app-landing/testimonial/client-img-three2.png"
                 alt="client image" />
 
               <div class="client-info">
@@ -106,7 +106,7 @@
 
             <div class="testimonial-item">
               <img
-                src="assets/img/app-landing/testimonial/client-img-three.png"
+                src="assets-en/img/app-landing/testimonial/client-img-three.png"
                 alt="client image" />
 
               <div class="client-info">
@@ -119,11 +119,11 @@
       </div>
 
       <div class="testimonial-shape">
-        <img src="assets/img/shape/1.png" alt="shape" />
-        <img src="assets/img/shape/2.png" alt="shape" />
-        <img src="assets/img/shape/3.png" alt="shape" />
-        <img src="assets/img/shape/4.png" alt="shape" />
-        <img src="assets/img/shape/5.png" alt="shape" />
+        <img src="assets-en/img/shape/1.png" alt="shape" />
+        <img src="assets-en/img/shape/2.png" alt="shape" />
+        <img src="assets-en/img/shape/3.png" alt="shape" />
+        <img src="assets-en/img/shape/4.png" alt="shape" />
+        <img src="assets-en/img/shape/5.png" alt="shape" />
       </div>
     </div>
   </section>
@@ -153,16 +153,16 @@
   </div>
 
   <!-- Include the JS files -->
-  <script src="assets/js/jquery.min.js"></script>
-  <script src="assets/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/js/owl.carousel.min.js"></script>
-  <script src="assets/js/jquery.ajaxchimp.min.js"></script>
-  <script src="assets/js/form-validator.min.js"></script>
-  <script src="assets/js/contact-form-script.js"></script>
-  <script src="assets/js/slick.min.js"></script>
-  <script src="assets/js/jquery.magnific-popup.min.js"></script>
-  <script src="assets/js/wow.min.js"></script>
-  <script src="assets/js/custom.js"></script>
+      <script src="assets-en/js/jquery.min.js"></script>
+    <script src="assets-en/js/bootstrap.bundle.min.js"></script>
+    <script src="assets-en/js/owl.carousel.min.js"></script>
+    <script src="assets-en/js/jquery.ajaxchimp.min.js"></script>
+    <script src="assets-en/js/form-validator.min.js"></script>
+    <script src="assets-en/js/contact-form-script.js"></script>
+    <script src="assets-en/js/slick.min.js"></script>
+    <script src="assets-en/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets-en/js/wow.min.js"></script>
+    <script src="assets-en/js/custom.js"></script>
 </body>
 
 </html>
